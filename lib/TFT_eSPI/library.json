@@ -1,0 +1,18 @@
+{
+  "name": "TFT_eSPI",
+  "version": "2.5.43",
+  "description": "Vendored CYD-configured copy retained from the source project.",
+  "build": {
+    "srcDir": ".",
+    "includeDir": ".",
+    "srcFilter": [
+      "+<TFT_eSPI.cpp>"
+    ]
+  },
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32"
+  ]
+}
